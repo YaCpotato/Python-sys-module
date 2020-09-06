@@ -18,9 +18,9 @@ print-footer    : true
 eager-loading : true
 
 # Fro Twitter Card And Other
-title : "フロントエンド出身のデータ分析者が始めたポートフォリオ"
-description : "Webをかじっていた新卒がポートフォリオつくるとこうなります"
-thumbnail : "PythonAndLibraries.png"
+title : "Python sysモジュールのまとめ"
+description : "Pythonの標準ライブラリ、sysについてのまとめです"
+# thumbnail : "PythonAndLibraries.png"
 
 
 # Plugins
