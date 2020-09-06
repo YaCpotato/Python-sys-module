@@ -1,0 +1,28 @@
+# Layout
+layout : center
+
+# Look-and-Feel
+theme : night
+theme-override : app.css
+highlight : white
+code-line-numbers : true
+background-opacity : 75
+footnote : "Twitter : @yasshi_dayooon"
+
+# Behavior
+transition : none
+published : true
+print-fragments : true
+print-notes     : false
+print-footer    : true
+eager-loading : true
+
+# Fro Twitter Card And Other
+title : "フロントエンド出身のデータ分析者が始めたポートフォリオ"
+description : "Webをかじっていた新卒がポートフォリオつくるとこうなります"
+thumbnail : "PythonAndLibraries.png"
+
+
+# Plugins
+charts : true
+mathjax : TeX-AMS_HTML-full
