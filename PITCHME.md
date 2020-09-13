@@ -23,8 +23,10 @@
 ---
 ### 今回解説する関数
 - sys.argv
+- sys.exit,exit()
 - sys.ps1,ps2
 - sys.breakpointhook()
 
+- sys._debugmallocstats()
 
 ---
