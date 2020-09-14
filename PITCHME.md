@@ -26,11 +26,9 @@
 ---
 ### 今回解説する関数
 - sys.argv
-- sys.exit()
-- sys.ps1,ps2
 - sys.breakpointhook()
-
-- sys._debugmallocstats()
+- sys.ps1,ps2
+- sys.exit()
 
 ---
 ### sys.exit([args])
@@ -48,6 +46,13 @@
 ### os._exit(code)
 - 例外を投げることなくマジでプロセス(スクリプト)が終了する。ちなみにError code必須(:integer)
 
-+++?code=sampleexit.py&lang=python
++++
 ### 復習
+
++++?code=sampleexit.py&lang=python
+@snap[south span-100]
+@[1](Socket.IO enables real-time, bidirectional, event-based communication.)
+@[2,3](Tweet Stream is node module that connects to the public twitter stream.)
+@[5-10](To process interesting Tweets, simply register a custom handler.)
+@snapend
 
