@@ -33,12 +33,21 @@
 - sys._debugmallocstats()
 
 ---
-### sys.exit
+### sys.exit([args])
 ~~システムを終了する~~ **(終了コードを伴って) SystemExit 例外を投げる**関数。
 - except(else),finallyしてやればプログラムを続けることはできる
-#### ただのexitとの比較
+
++++
+
+### ただのexit([args])との比較
 - インタプリタでもスクリプトでもどちらも使用可能
 - **(終了コードを伴って) SystemExit 例外を投げる**関数。
 - exitは()がないと  `Use exit() or Ctrl-D (i.e. EOF) to exit`が出力されるが、sys.exitは`<built-in function exit>`
-#### os._exit(code)
+
++++
+### os._exit(code)
 - 例外を投げることなくマジでプロセス(スクリプト)が終了する。ちなみにError code必須(:integer)
+
++++?code=sampleexit.py&lang=python
+### 復習
+
