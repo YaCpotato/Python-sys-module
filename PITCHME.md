@@ -51,8 +51,13 @@
 
 +++?code=sampleexit.py&lang=python
 @snap[south span-100]
-@[1](Socket.IO enables real-time, bidirectional, event-based communication.)
-@[2,3](Tweet Stream is node module that connects to the public twitter stream.)
-@[5-10](To process interesting Tweets, simply register a custom handler.)
+@[5](1がプリントされます。print関数は自動改行をしますが、endを指定することで改行ではないものにできます)
+@[7-9](2がプリントされ、/\nによって改行されます。sys.exit()の例外によりtry文を抜けます)
+@[10-12](exceptに捕まります。3と4をプリントします。それぞれ改行)
+@[14-19](5+改行コードがプリントされ改行。numberは3行目で2と定義したのでif文の中へ、例外が発生します)
+@[20-21](exceptに捕まります。7をプリントします)
+@[25,26](finallyで9をプリントします)
+@[28-33](numberは4の再代入により>3を満たすので中のos._exit(400)が実行されます)
+@[34,35](finallyで11をプリントします)
 @snapend
 
