@@ -31,6 +31,8 @@
 - sys.ps1,ps2
 - sys.exit()
 
+---
+### sys argv
 
 ---
 ### sys.exit([args])
