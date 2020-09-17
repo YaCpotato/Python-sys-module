@@ -7,8 +7,12 @@
 このLTではsysの基礎的で簡単な関数を4つほど紹介します。全てご存知の方もいらっしゃるかもしれませんが、ご容赦ください。  
 茶番も含まれます。ご容赦ください。
 
----?image=selfintro.png
+---
 ### 自己紹介
+
++++
+
+[![Image from Gyazo](https://i.gyazo.com/924fd091b4efd09766814605a0949333.jpg)](https://gyazo.com/924fd091b4efd09766814605a0949333)
 
 ---
 
