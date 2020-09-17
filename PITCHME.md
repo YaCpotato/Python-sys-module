@@ -4,7 +4,8 @@
 
 ### はじめに
 
-このLTではsysの基礎的で簡単な関数を4つほど紹介します。全てご存知の方もいらっしゃるかもしれませんが、ご容赦ください
+このLTではsysの基礎的で簡単な関数を4つほど紹介します。全てご存知の方もいらっしゃるかもしれませんが、ご容赦ください。  
+茶番も含まれます。ご容赦ください。
 
 ---
 
@@ -16,21 +17,15 @@
 
 - sysとは
 - Tips
-
+	- sys.argv
+	- sys.breakpointhook()
+	- sys.ps1,ps2
+	- sys.exit()
 ---
 ### sys
 @snap[west span-40]
 @box[bg-gold text-white rounded box-padding](インタプリタで使用・管理している変数や、インタプリタの動作に深く関連する関数を定義)
 @snapend
-
-
-
----
-### 今回解説するTips
-- sys.argv
-- sys.breakpointhook()
-- sys.ps1,ps2
-- sys.exit()
 
 ---
 ### sys argv
@@ -77,8 +72,38 @@ if __name__ == '__main__':
 	breakpoint()
 ```
 ---
+### sys.ps1.ps2
+対話実行の際に出るアレ
+```python
+>>> for i in range(3):
+...     print(i)
+... 
+0
+1
+2
+```
+
++++
+#### なんと書き換え可能
+```python
+>>> import sys
+>>> sys.ps1 = '(´·ω·`)'
+(´·ω·`)sys.ps2 = '|ω·`)'
+(´·ω·`)for i in range(3):
+|ω·`)   print(i)
+|ω·`)
+0
+1
+2
+(´·ω·`)
+```
+
++++
+
+### import sysしてsys.ps1,2に好きな文字列を代入するだけです。遊んでみてください
 
 ---
+
 ### sys.exit([args])
 ~~システムを終了する~~ **(終了コードを伴って) SystemExit 例外を投げる**関数。
 - except(else),finallyしてやればプログラムを続けることはできる
