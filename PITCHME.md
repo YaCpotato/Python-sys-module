@@ -1,11 +1,10 @@
-## Pythonのsysモジュール
+## Python sys
 
 ---
 
 ### はじめに
 
-このLTではsysの基礎的で簡単な関数を4つほど紹介します。全てご存知の方もいらっしゃるかもしれませんが、ご容赦ください。  
-茶番も含まれます。ご容赦ください。
+このLTではsysの基礎的で簡単な関数を4つほど紹介します。茶番アリ
 
 ---
 ### 自己紹介
@@ -19,13 +18,13 @@
 ### 目次
 
 - sysとは
-- Tips
-	- sys.argv
-	- sys.breakpointhook()
-	- sys.ps1,ps2
-	- sys.exit()
+- sys.argv
+- sys.breakpointhook()
+- sys.ps1,ps2
+- sys.exit()
+
 ---
-### sys
+### sysとは
 
 @box[bg-gold text-white rounded box-padding](インタプリタで使用・管理している変数や、インタプリタの動作に深く関連する関数を定義)
 
@@ -116,9 +115,9 @@ if __name__ == '__main__':
 +++
 
 ### ただのexit([args])との比較
-- インタプリタでもスクリプトでもどちらも使用可能
-- **(終了コードを伴って) SystemExit 例外を投げる**関数。
-- exitは()がないと  `Use exit() or Ctrl-D (i.e. EOF) to exit`が出力されるが、sys.exitは`<built-in function exit>`
+
+exitは()がないと  `Use exit() or Ctrl-D (i.e. EOF) to exit`が出力されるが、sys.exitは`<built-in function exit>`
+#### ほとんどない
 
 +++
 ### os._exit(code)
