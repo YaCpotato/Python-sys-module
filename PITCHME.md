@@ -64,16 +64,10 @@ apple
 import sys,random,time
 
 def my_debug_function():
-	print('.' ,end = '')
-	time.sleep(600)
-	print('.' ,end = '')
-	time.sleep(600)
-	print('.' ,end = '')
-	time.sleep(2000)
 	print('俺は止まんねぇからよ、お前らが止まんねぇかぎり、その先に俺はいるぞ！')
-	time.sleep(2000)
+	time.sleep(3)
 	print('だからよ、、、、')
-	time.sleep(2000)
+	time.sleep(4)
 	print('止まるんじゃねえぞ、、、。')
 	return
 
