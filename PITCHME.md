@@ -12,7 +12,7 @@
 
 +++
 
-[![Image from Gyazo](https://i.gyazo.com/924fd091b4efd09766814605a0949333.jpg)](https://gyazo.com/924fd091b4efd09766814605a0949333)
+[![Image from Gyazo](https://i.gyazo.com/1d1ceab1e7ad2e89eb98d32f7e71b9fa.jpg)](https://gyazo.com/1d1ceab1e7ad2e89eb98d32f7e71b9fa)
 
 ---
 
