@@ -58,6 +58,33 @@ apple
 
 ```
 ---
+### sys.breakpointhook
+組み込み関数の`breakpoint()`から呼ばれる。デフォルトではbreakpoint()はpdb.set_trace()を呼ぶが、この値を書き換えることにより、オリジナルのデバッガを設定することが可能
+```python
+import sys,random,time
+
+def my_debug_function():
+	print('.' ,end = '')
+	time.sleep(600)
+	print('.' ,end = '')
+	time.sleep(600)
+	print('.' ,end = '')
+	time.sleep(2000)
+	print('俺は止まんねぇからよ、お前らが止まんねぇかぎり、その先に俺はいるぞ！')
+	time.sleep(2000)
+	print('だからよ、、、、')
+	time.sleep(2000)
+	print('止まるんじゃねえぞ、、、。')
+	return
+
+sys.breakpointhook = my_debug_function
+
+if __name__ == '__main__':
+	breakpoint()
+```
+---
+
+---
 ### sys.exit([args])
 ~~システムを終了する~~ **(終了コードを伴って) SystemExit 例外を投げる**関数。
 - except(else),finallyしてやればプログラムを続けることはできる
