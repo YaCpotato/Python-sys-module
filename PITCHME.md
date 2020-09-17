@@ -54,7 +54,7 @@ apple
 ```
 ---
 ### sys.breakpointhook
-組み込み関数の`breakpoint()`から呼ばれる。デフォルトではbreakpoint()はpdb.set_trace()を呼ぶが、この値を書き換えることにより、オリジナルのデバッガを設定することが可能
+組み込み関数の`breakpoint()`から呼ばれる。初期設定ではbreakpoint()はpdb.set_trace()を呼ぶ。  この値を書き換え、オリジナルのデバッガを設定可能
 ```python
 import sys,random,time
 
