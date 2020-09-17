@@ -4,16 +4,16 @@ layout : center
 # Look-and-Feel
 theme            : template
 
-theme-background : [ "#FFF" ]
-theme-headline   : [ "Raleway", "#5289F7", "none" ]
-theme-byline     : [ "Raleway", "#111111", "none" ]
-theme-text       : [ "Ubuntu", "#1C1C1C", "none" ]
-theme-links      : [ "#5289F7", "#5254F7" ]
-theme-code       : [ "Source Code Pro" ]
+theme-background : [ "linear-gradient(to top, #6dd5ed, #2193b0)" ]
+theme-headline   : [ "Ubuntu", "white", "none" ]
+theme-byline     : [ "Ubuntu", "black", "none" ]
+theme-text       : [ "Raleway", "#F5FFFA", "none" ]
+theme-links      : [ "#0295BB", "#C0C0C0" ]
+theme-code       : [ "Inconsolata" ]
 theme-controls   : [ "#484848" ]
 theme-margins    : [ "0", "15px" ]
 
-highlight        : tomorrow
+highlight        : ir-black
 code-line-numbers : true
 background-opacity : 75
 footnote : "Twitter : @yasshi_dayooon"
