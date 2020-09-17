@@ -23,12 +23,11 @@
 	- sys.exit()
 ---
 ### sys
-@snap[west span-40]
+
 @box[bg-gold text-white rounded box-padding](インタプリタで使用・管理している変数や、インタプリタの動作に深く関連する関数を定義)
-@snapend
 
 ---
-### sys argv
+### sys.argv
 スクリプト実行時のコマンドライン引数のリストが格納されている
 ```python
 import sys
@@ -54,7 +53,9 @@ apple
 ```
 ---
 ### sys.breakpointhook
-組み込み関数の`breakpoint()`から呼ばれる。初期設定ではbreakpoint()はpdb.set_trace()を呼ぶ。  この値を書き換え、オリジナルのデバッガを設定可能
+この値を書き換え、breakpoint()の呼び出す関数にオリジナルのデバッガを設定可能。  
+下記、止まらないデバッガの例
+
 ```python
 import sys,random,time
 
