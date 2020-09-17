@@ -4,7 +4,7 @@ layout : center
 # Look-and-Feel
 theme            : template
 
-theme-background : [ "white" ]
+theme-background : [ "#FFF" ]
 theme-headline   : [ "Righteous", "#E27924", "none" ]
 theme-byline     : [ "Concert One", black, "none" ]
 theme-text       : [ "Bubblegum", "#1C1C1C", "none" ]
