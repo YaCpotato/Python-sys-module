@@ -116,8 +116,9 @@ if __name__ == '__main__':
 
 ### ただのexit([args])との比較
 
-exitは()がないと  `Use exit() or Ctrl-D (i.e. EOF) to exit`が出力されるが、sys.exitは`<built-in function exit>`
-#### ほとんどない
+exitは()がないと  `Use exit() or Ctrl-D (i.e. EOF) to exit`が出力されるが、sys.exitは`<built-in function exit>`  
+
+→ほとんどない
 
 +++
 ### os._exit(code)
