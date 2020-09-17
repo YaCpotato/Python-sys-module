@@ -106,7 +106,8 @@ if __name__ == '__main__':
 ---
 
 ### sys.exit([args])
-~~システムを終了する~~ **(終了コードを伴って) SystemExit 例外を投げる**関数。
+@box[bg-gold text-white rounded box-padding](~~システムを終了する~~ **(終了コードを伴って) SystemExit 例外を投げる**関数。)
+
 - except(else),finallyしてやればプログラムを続けることはできる
 
 +++
@@ -118,7 +119,8 @@ if __name__ == '__main__':
 
 +++
 ### os._exit(code)
-- 例外を投げることなくマジでプロセス(スクリプト)が終了する。ちなみにError code必須(:integer)
+@box[bg-gold text-white rounded box-padding](例外を投げることなくマジでプロセス(スクリプト)が終了する。\nちなみにError code必須(:integer))
+
 
 +++
 ### 復習
