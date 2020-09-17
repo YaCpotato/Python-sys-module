@@ -12,6 +12,7 @@ theme-links      : [ "#62A503", "#718C00" ]
 theme-code       : [ "Fira Code" ]
 theme-controls   : [ "#C0C0C0" ]
 theme-margins    : [ "0", "15px" ]
+theme-override : app.css
 
 highlight        : tomorrow
 
