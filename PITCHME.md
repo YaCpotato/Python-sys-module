@@ -126,7 +126,7 @@ exitは()がないと  `Use exit() or Ctrl-D (i.e. EOF) to exit`が出力され�
 
 
 +++
-### 復習
+### 問題!
 
 +++?code=sampleexit.py&lang=python
 @snap[south span-100]
@@ -158,3 +158,7 @@ exitは()がないと  `Use exit() or Ctrl-D (i.e. EOF) to exit`が出力され�
 
 ---
 ### まとめ
+- 正直、全部の機能を使い込む必要はない人の方が多い
+- 使いこなすと簡単な自動化ツールを作れるかもしれないが  
+標準入力系を扱った方がいい場合もある
+- breakpointに自作関数使えるの便利
