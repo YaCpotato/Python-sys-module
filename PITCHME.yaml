@@ -2,7 +2,7 @@
 layout : center
 
 # Look-and-Feel
-theme : night
+theme : white
 theme-override : app.css
 highlight : white
 code-line-numbers : true
