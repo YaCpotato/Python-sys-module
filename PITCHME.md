@@ -161,3 +161,8 @@ exitは()がないと  `Use exit() or Ctrl-D (i.e. EOF) to exit`が出力され�
 - 正直、全部を使い込む必要はない人の方が多い
 - 標準入力系みたいに簡単な自動化ツールに役立つ？
 - breakpointに自作関数使えるの便利
+
+---
+### 参考文献
+- [Python 3.7.8 ドキュメント](https://docs.python.org/ja/3.7/library/functions.html#breakpoint)
+- [Pythonの知っておくと良い細かい処理速度の違い8個](https://www.kumilog.net/entry/python-speed-comp)
